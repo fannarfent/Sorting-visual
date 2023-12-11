@@ -18,3 +18,6 @@ Og hér er hvernig það lítur út sorted
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/gS7BH-eqDYI/0.jpg)](http://www.youtube.com/watch?v=gS7BH-eqDYI)
 # Útkomann
 mér fannst koma ágættlega út úr þessu samt lenti ég í veseni með að gera  en það næsta sem væri á dagskrá er að gera það hægt að velja hraðan á sortinu með lista á síðuni sjálfri, gera cssið aðeins meira scaleable með missmunandi tækjum og síðast en ekki síðst koma upp einnhverji virkni með touch eða eitthvað slíkt, mögulega gera manni kleift að stækka magnið af columns með pinch eða eitthvað slíkt og swipe til að breyta hraðanum
+# Linkar
+[Link að Repository](https://github.com/fannarfent/Sorting-visual/tree/main/docs)
+[Link að sjálfri síðuni](https://fannarfent.github.io/Sorting-visual/)
