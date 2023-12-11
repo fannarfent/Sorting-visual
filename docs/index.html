@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>🎵 Sorting 🎵</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <h1>🎵sorting Visualizer🎵</h1>
+    <div id="container"></div>
+    <hr>
+
+    <div class="container1">
+        <div class="gradient">
+        <button onclick="init()">Shuffle</button>
+        <button onclick="play()">play</button>
+        <label for="numIndices">Number of Columns:</label>
+        <select id="numIndices" onchange="updateNumIndices()">
+            <option value="70">70</option>
+            <option value="30">30</option>
+            <option value="20">20</option>
+            <option value="10">10</option>
+            <option value="0" selected>0</option>
+        </select>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>

@@ -1,0 +1,75 @@
+#container{
+    display: flex;
+    flex-wrap: wrap; /* Leyfa stikum að vefjast á minni skjái */
+    justify-content: center;
+    max-width: 100%;
+    height: 199px;
+    align-items: flex-end;
+    margin-bottom: 4vm;
+}
+/* styling */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0b090a;
+    padding: 5vw; /* nota viewport units fyrir padding */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+h1 {
+    color: white;
+    font-size: 4.5vw; /* Responsive font size fyrir viewport width */
+    margin-bottom: 1vw; /* Responsive margin fyrir viewport width */
+}
+
+/* Buttons */
+button {
+    padding: 0.2vw 0.4vw; 
+    font-size: 1.2vw; 
+    margin: 0.1vw; 
+}
+.bar {
+    flex: 0 0 auto;
+    width: 10px;
+    height: 30%; 
+    margin: 1px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    filter: brightness(120%);
+}
+
+/* Container with gradient */
+.container1 {
+    max-width: 100%;
+    padding: 0.4vw;
+    position: relative;
+    z-index: 1;
+    background-color: #4158D0;
+    margin-bottom: 4vw; 
+    filter: brightness(120%);
+}
+
+/* Gradient overlay */
+.container1:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: calc(100% - 4vw); 
+    height: calc(100% - 4vw); 
+    left: 2vw; 
+    top: 0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    filter: blur(1vw); 
+}
+
+/* Gradient section */
+.gradient {
+    background-color: #0b090a;
+    padding: 5vw; 
+    font-size: 2vw; 
+    text-align: center;
+}
