@@ -1,6 +1,5 @@
-# Sorting-visual
-## Ferli mitt að gera vizualized sorting algorithma
 ## Fannar Örn Ragnarsson - FORR3FV05EU-Hát - Tækniskólinn
+# visualized sorting algoriðmi
 # Verkefnalýsing
 Grunn pælinginn var í raun að mig hefur alltaf langað að gera eitthvað sem tengist svona sorting algorithm sem yrði samt hækkt að interacta með á einnhvern hátt
 sem var sirka það sem ég gerði í þessu verkenfi
