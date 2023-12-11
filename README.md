@@ -12,5 +12,7 @@ algoriðminn er í raun bara basic bubble sort algoriðmi sem gengur út á að 
 ### > // ef i-1 (sem er stæðsta númerið í arrayinu upp að þeim punkt sem það er komið)er stærra en i heldur það áfram að færa sig niður línuna
 síðan fór ég í það að gera þetta aðeins meira dínamískt að því leiti að geta valið magn af columns
 ![verk 5 final unsorted](https://github.com/fannarfent/Sorting-visual/blob/main/verk%205%20final%20unsorted.PNG?raw=true)
+Og hér er hvernig það lítur út sorted
+![verk 5 final sorted](https://github.com/fannarfent/Sorting-visual/blob/main/verk%205%20final%20sorted.PNG?raw=true)
 # Útkomann
 mér fannst koma ágættlega út úr þessu samt lenti ég í veseni með að gera  en það næsta sem væri á dagskrá er að gera það hægt að velja hraðan á sortinu með lista á síðuni sjálfri, gera cssið aðeins meira scaleable með missmunandi tækjum og síðast en ekki síðst koma upp einnhverji virkni með touch eða eitthvað slíkt, mögulega gera manni kleift að stækka magnið af columns með pinch eða eitthvað slíkt og swipe til að breyta hraðanum
